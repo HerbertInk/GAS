@@ -2,6 +2,12 @@
 # station for the three products gasoline diesel and kerosene
 # prints total sale debts and payments
 
+# timestamp
+import datetime
+
+current_datetime = datetime.datetime.now()
+current_datetime = current_datetime.strftime("%Y-%m-%d %H:%M hrs")
+
 # variables innit
 total_sales = 0
 total_debts = 0
