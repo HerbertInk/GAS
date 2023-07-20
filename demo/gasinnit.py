@@ -1,3 +1,7 @@
+# demo python code to calculate sales of a gas 
+# station for the three products gasoline diesel and kerosene
+# prints total sale debts and payments
+
 # variables innit
 total_sales = 0
 total_debts = 0
@@ -32,3 +36,7 @@ print("\n SALES FOR THE DAY \n")
 print(f"Debts for the day: ${total_debts:.2f}")
 print(f"Payments: ${total_debt_payments:.2f}")
 print(f"Sales for the day: ${total_sales:.2f}")
+
+"""
+    this is all going incremental
+"""
